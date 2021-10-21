@@ -235,7 +235,7 @@ nav a {
 .contenerglobal {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 18rem 18rem 18rem 18rem;
+	grid-template-rows: 25rem 25rem 25rem 25rem;
 	grid-template-areas:
 		'link1'
 		'link2'
