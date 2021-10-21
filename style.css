@@ -86,14 +86,19 @@ body {
 	}
 }
 
+.span {
+	font-weight: bold;
+}
+
 .topnav {
 	overflow: hidden;
-	margin: 3.5%;
+	margin: 3.5% 3.5% 0% 3.5%;
 	display: flex;
 	justify-content: space-between;
 }
 .header-logo img {
-	width: 17rem;
+	width: 20rem;
+	margin: -1.8rem 0rem 0rem -1.8rem;
 }
 
 .topnav a {
@@ -110,14 +115,16 @@ body {
 
 .topnav a:hover {
 	background-color: #ffe4cf;
-	color: #ffffff;
+	color: black;
 	border-radius: 15px;
+	font-weight: bold;
 }
 
 .topnav a.active {
 	background-color: #ffe4cf;
-	color: #ffffff;
+	color: black;
 	border-radius: 15px;
+	font-weight: bold;
 }
 
 .topnav .icon {
@@ -296,7 +303,7 @@ nav a {
 
 .footertitle {
 	color: black;
-	padding-bottom: 0.5rem;
+	padding-bottom: 1rem;
 	font-size: 1.3rem;
 	text-align: center;
 }
@@ -305,6 +312,10 @@ nav a {
 	list-style-type: none;
 	color: black;
 	text-align: center;
+}
+
+.info {
+	padding: 0.2rem;
 }
 
 .footermenu {
