@@ -128,4 +128,124 @@ nav a {
 
 .biographie {
 	padding: 2rem;
+	background-color: #ffe4cf86;
+	margin-bottom: 2rem;
+	border-radius: 0.6rem;
+}
+
+.title {
+	margin-bottom: 1rem;
+}
+
+.picture {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	margin-top: 4rem;
+	margin: 0rem 2rem 0rem 2rem;
+}
+
+.contenerglobal {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 18rem 18rem 18rem 18rem;
+	grid-template-areas:
+		'link1'
+		'link2'
+		'link3'
+		'link4';
+	grid-row-gap: 2rem;
+	width: 100%;
+	grid-column-gap: 2rem;
+}
+
+.picturelink {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	border-radius: 1.3rem;
+}
+
+.link1 {
+	grid-area: link1;
+}
+.link2 {
+	grid-area: link2;
+}
+.link3 {
+	grid-area: link3;
+}
+.link4 {
+	grid-area: link4;
+}
+
+.picturelink > figure {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.picturelink > figure > img {
+	flex: 1;
+}
+
+.activitypicture {
+	display: block;
+	object-fit: cover;
+	border-radius: 1.3rem 1.3rem 0rem 0rem;
+	width: 100%;
+	height: 50%;
+}
+
+.picturename {
+	text-align: center;
+	padding-top: 0.6rem;
+	padding-left: 0.6rem;
+	padding-bottom: 0.6rem;
+}
+
+/* Footer du site*/
+.footer {
+	margin-top: 3rem;
+	padding: 2rem;
+	background-color: #ffe4cf86;
+}
+
+.footertitle {
+	color: black;
+	padding-bottom: 0.5rem;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.footerul {
+	list-style-type: none;
+	color: black;
+	text-align: center;
+}
+
+.footermenu {
+	list-style-type: none;
+}
+
+.footertext {
+	color: black;
+}
+
+.mail {
+	padding-right: 0.5rem;
+}
+
+.tel {
+	padding-right: 0.5rem;
+	padding-left: 0.1rem;
+	color: black;
+}
+
+.insta {
+	padding-right: 0.5rem;
+	color: black;
 }
