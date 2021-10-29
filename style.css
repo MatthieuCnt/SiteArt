@@ -447,7 +447,17 @@ img {
 		'link11'
 		'link12'
 		'link13'
-		'link14';
+		'link14'
+		'link15'
+		'link16'
+		'link17'
+		'link18'
+		'link19'
+		'link20'
+		'link21'
+		'link22'
+		'link23'
+		'link24';
 	grid-row-gap: 2rem;
 	width: 100%;
 	grid-column-gap: 2rem;
@@ -514,6 +524,36 @@ img {
 }
 .link14 {
 	grid-area: link14;
+}
+.link15 {
+	grid-area: link15;
+}
+.link16 {
+	grid-area: link16;
+}
+.link17 {
+	grid-area: link17;
+}
+.link18 {
+	grid-area: link18;
+}
+.link19 {
+	grid-area: link19;
+}
+.link20 {
+	grid-area: link20;
+}
+.link21 {
+	grid-area: link21;
+}
+.link22 {
+	grid-area: link22;
+}
+.link23 {
+	grid-area: link23;
+}
+.link24 {
+	grid-area: link24;
 }
 .link04 {
 	grid-area: link4;
