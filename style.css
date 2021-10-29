@@ -468,8 +468,8 @@ img {
 	grid-template-columns: 1fr;
 	grid-template-rows: 25rem 25rem;
 	grid-template-areas:
-		'link04'
-		'link05';
+		'link4'
+		'link5';
 	grid-row-gap: 2rem;
 	width: 100%;
 	grid-column-gap: 2rem;
