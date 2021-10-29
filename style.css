@@ -458,8 +458,8 @@ img {
 	grid-template-columns: 1fr;
 	grid-template-rows: 25rem 25rem;
 	grid-template-areas:
-		'link4'
-		'link5';
+		'link04'
+		'link05';
 	grid-row-gap: 2rem;
 	width: 100%;
 	grid-column-gap: 2rem;
@@ -490,6 +490,36 @@ img {
 }
 .link6 {
 	grid-area: link6;
+}
+.link7 {
+	grid-area: link7;
+}
+.link8 {
+	grid-area: link8;
+}
+.link9 {
+	grid-area: link9;
+}
+.link10 {
+	grid-area: link10;
+}
+.link11 {
+	grid-area: link11;
+}
+.link12 {
+	grid-area: link12;
+}
+.link13 {
+	grid-area: link13;
+}
+.link14 {
+	grid-area: link14;
+}
+.link04 {
+	grid-area: link4;
+}
+.link05 {
+	grid-area: link5;
 }
 .picturelink > figure {
 	height: 100%;
