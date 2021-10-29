@@ -436,7 +436,18 @@ img {
 	grid-template-areas:
 		'link1'
 		'link2'
-		'link3';
+		'link3'
+		'link4'
+		'link5'
+		'link6'
+		'link7'
+		'link8'
+		'link9'
+		'link10'
+		'link11'
+		'link12'
+		'link13'
+		'link14';
 	grid-row-gap: 2rem;
 	width: 100%;
 	grid-column-gap: 2rem;
@@ -476,6 +487,9 @@ img {
 }
 .link5 {
 	grid-area: link5;
+}
+.link6 {
+	grid-area: link6;
 }
 .picturelink > figure {
 	height: 100%;
