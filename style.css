@@ -126,6 +126,7 @@ body {
 	color: black;
 	border-radius: 15px;
 	font-weight: bold;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 }
 
 .topnav .icon {
@@ -404,6 +405,7 @@ img {
 	padding: 2rem;
 	background-color: #ffe4cf86;
 	margin-bottom: 2rem;
+	box-shadow: 0 0 5px hsl(0deg 0% 0% / 50%);
 }
 
 .actu {
@@ -597,6 +599,7 @@ img {
 	margin-top: 3rem;
 	padding: 2rem;
 	background-color: #ffe4cf86;
+	box-shadow: 0 0 5px hsl(0deg 0% 0% / 50%);
 }
 
 .footer {
@@ -606,9 +609,10 @@ img {
 }
 
 .footer_contact {
-	margin-top: 2rem;
+	margin-top: 2.5rem;
 	padding: 2rem;
 	background-color: #ffe4cf86;
+	box-shadow: 0 0 5px hsl(0deg 0% 0% / 50%);
 }
 
 .footertitle {
@@ -664,35 +668,35 @@ img {
 }
 .insta_contact {
 	font-size: 8rem;
-	color: black;
+	color: #000000a8;
 }
 
 .tel_contact {
 	font-size: 8rem;
-	color: black;
+	color: #000000a8;
 }
 
 .mail_contact {
 	font-size: 8rem;
-	color: black;
+	color: #000000a8;
 }
 
 .contact_picture {
 	border-radius: 50%;
-	height: 20rem;
-	width: 20rem;
+	height: 17rem;
+	width: 17rem;
 	margin-left: auto;
 	margin-right: auto;
 	object-fit: cover;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 }
 
 .div_button {
 	margin-left: auto;
 	margin-right: auto;
-	height: 5rem;
-	width: 15rem;
+	height: 2rem;
+	width: 13rem;
 }
 
 .contact_button {
@@ -702,4 +706,5 @@ img {
 	border-radius: 2rem;
 	background-color: #ffe4cf;
 	font-weight: bold;
+	color: black;
 }
