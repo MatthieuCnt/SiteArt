@@ -132,6 +132,7 @@ body {
 	display: none;
 	background-color: #ffe4cf;
 	border-radius: 15px;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 }
 
 @media screen and (max-width: 768px) {
@@ -611,6 +612,12 @@ img {
 	text-align: center;
 }
 
+.footerul_contact {
+	display: flex;
+	justify-content: space-between;
+	padding: 4rem;
+}
+
 .info {
 	padding: 0.2rem;
 }
@@ -621,6 +628,12 @@ img {
 
 .footertext {
 	color: black;
+}
+
+.footertext_tel {
+	color: black;
+	float: left;
+	margin-top: 0.5rem;
 }
 
 .mail {
@@ -636,4 +649,42 @@ img {
 .insta {
 	padding-right: 0.5rem;
 	color: black;
+}
+.insta_contact {
+	font-size: 8rem;
+}
+
+.tel_contact {
+	font-size: 8rem;
+}
+
+.mail_contact {
+	font-size: 8rem;
+}
+
+.contact_picture {
+	border-radius: 50%;
+	height: 20rem;
+	width: 20rem;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: cover;
+	margin-bottom: 4rem;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+}
+
+.div_button {
+	margin-left: auto;
+	margin-right: auto;
+	height: 5rem;
+	width: 15rem;
+}
+
+.contact_button {
+	padding: 1.5rem;
+	border: #ffe4cf;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	border-radius: 2rem;
+	background-color: #ffe4cf;
+	font-weight: bold;
 }
