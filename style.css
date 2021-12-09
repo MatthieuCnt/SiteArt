@@ -102,6 +102,10 @@ body {
 	margin: -1.8rem 0rem 0rem -1.8rem;
 }
 
+.img_description {
+	max-height: 35rem;
+}
+
 .topnav a {
 	float: left;
 	display: block;
@@ -178,8 +182,8 @@ body {
 }
 
 .titlelogo {
-	position: absolute;
 	padding: 0 2rem;
+	margin-bottom: 1rem;
 }
 
 section.home-margin {
@@ -199,7 +203,7 @@ img {
 	box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.5);
 	overflow: hidden;
 	max-width: 600px;
-	margin: 7rem 0 auto;
+	margin: auto;
 	position: relative;
 }
 
@@ -406,6 +410,7 @@ img {
 	background-color: #ffe4cf86;
 	margin-bottom: 2rem;
 	box-shadow: 0 0 5px hsl(0deg 0% 0% / 50%);
+	text-align: center;
 }
 
 .actu {
@@ -418,10 +423,12 @@ img {
 
 .title {
 	margin-bottom: 1rem;
+	text-align: center;
 }
 
 .titleactu {
-	margin: 0rem 0rem 2rem 2rem;
+	padding-top: 1rem;
+	text-align: center;
 }
 
 .picture {
@@ -467,7 +474,7 @@ img {
 }
 
 .contenerglobalactu {
-	display: grid;
+	/*display: grid;*/
 	grid-template-columns: 1fr;
 	grid-template-rows: 25rem 25rem;
 	grid-template-areas:
@@ -484,6 +491,17 @@ img {
 	color: black;
 	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
 	border-radius: 1.3rem;
+}
+
+.picturelinkdescription {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.title_description {
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .link1 {
@@ -559,20 +577,29 @@ img {
 	grid-area: link24;
 }
 .link04 {
-	grid-area: link4;
+	grid-area: link25;
 }
 .link05 {
-	grid-area: link5;
+	grid-area: link26;
 }
 .picturelink > figure {
-	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
+	max-height: 30rem;
+	height: 25rem;
 }
 
 .picturelink > figure > img {
 	flex: 1;
+}
+
+.activitypictureactu {
+	display: block;
+	object-fit: cover;
+	border-radius: 1.3rem 1.3rem 0rem 0rem;
+	width: 100%;
+	height: 50%;
 }
 
 .activitypicture {
@@ -602,12 +629,6 @@ img {
 	box-shadow: 0 0 5px hsl(0deg 0% 0% / 50%);
 }
 
-.footer {
-	margin-top: 3rem;
-	padding: 2rem;
-	background-color: #ffe4cf86;
-}
-
 .footer_contact {
 	margin-top: 2.5rem;
 	padding: 2rem;
@@ -635,7 +656,8 @@ img {
 }
 
 .info {
-	padding: 0.2rem;
+	text-align: center;
+	padding: 0.4rem;
 }
 
 .footermenu {
@@ -648,8 +670,7 @@ img {
 
 .footertext_tel {
 	color: black;
-	float: left;
-	margin-top: 0.5rem;
+	margin-top: 1rem;
 }
 
 .mail {
@@ -707,4 +728,127 @@ img {
 	background-color: #ffe4cf;
 	font-weight: bold;
 	color: black;
+}
+
+.avis {
+	margin-top: 2rem;
+}
+
+.avispicture {
+	width: 100%;
+}
+
+.pictureshow {
+	width: 40rem;
+}
+
+@media screen and (min-width: 769px) {
+	body {
+		font-size: 13px;
+	}
+
+	.pictureshow {
+		margin-left: 2rem;
+		box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	}
+
+	.picture_intro {
+		display: flex;
+		margin: auto;
+		padding-bottom: 2rem;
+	}
+
+	.intro {
+		padding: 2rem 2rem 0rem 2rem;
+		box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	}
+
+	.avispicture {
+		width: auto;
+	}
+
+	.topnav {
+		margin-top: 1%;
+	}
+	.titlelogo {
+		padding: 0rem 0rem 2rem 4rem;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	.slideshow {
+		max-width: 500px;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.biographie {
+		padding-left: 15%;
+		padding-right: 15%;
+		margin-bottom: 0.3rem;
+		text-align: center;
+	}
+
+	.contener {
+		margin-top: 1rem;
+	}
+
+	.picture {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.pictureactu {
+		padding-left: 38%;
+		padding-right: 38%;
+	}
+
+	.titleactu {
+		padding-top: 1rem;
+		text-align: center;
+	}
+
+	.contenerglobal {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas:
+			'link1 link2 link3'
+			'link4 link5 link6'
+			'link7 link8 link9'
+			'link10 link11 link12'
+			'link13 link14 link15'
+			'link16 link17 link18'
+			'link19 link20 link21'
+			'link22 link23 link24'
+			'link25 link26 link27'
+			'link28 link29 link30'
+			'link31 link32 link33';
+		grid-template-rows: none;
+		padding: 2rem;
+		grid-gap: 2rem;
+	}
+
+	.contact_picture {
+		border-radius: 25%;
+		height: 20%;
+		margin-bottom: 4rem;
+	}
+
+	.div_button {
+		height: 2rem;
+		width: 15rem;
+	}
+
+	.footerul_2 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.footertext_tel {
+		float: none;
+		margin-top: 8.5rem;
+	}
+
+	.footertext_title {
+		padding-bottom: 3rem;
+	}
 }
