@@ -438,6 +438,17 @@ img {
 	margin: 0rem 2rem 0rem 2rem;
 }
 
+.div_img_after {
+	display: flex;
+	justify-content: center;
+}
+.img_after {
+	width: 20rem;
+	margin: 1rem;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	cursor: zoom-in;
+}
+
 .contenerglobal {
 	display: grid;
 	grid-template-columns: 1fr;
