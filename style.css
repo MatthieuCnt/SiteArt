@@ -434,6 +434,30 @@ img {
 	margin-left: 2.5rem;
 	margin-bottom: 2.5rem;
 }
+
+@media screen and (max-width: 950px) {
+	.div_img_after {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+	}
+}
+
+.div_img_after_expo {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: none;
+	grid-gap: 2rem;
+	justify-items: center;
+	padding: 0 30rem;
+}
+
+@media screen and (max-width: 1440px) {
+	.div_img_after_expo {
+		padding: 0;
+	}
+}
+
 .img_after {
 	width: 20rem;
 	margin: 1rem;
@@ -442,6 +466,13 @@ img {
 	height: 15rem;
 }
 
+.img_after_expo {
+	width: 25rem;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	cursor: zoom-in;
+	height: 15rem;
+	object-fit: cover;
+}
 .contenerglobal {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -625,6 +656,56 @@ img {
 	border-radius: 0rem 0rem 1.3rem 1.3rem;
 }
 
+.reportage {
+	display: block;
+	background-color: #ffe4cf;
+	border-radius: 5px;
+	text-align: center;
+	padding: 2rem;
+	font-weight: bold;
+	box-shadow: 0rem 0.3rem 0.6rem #9c9c9c;
+	font-size: 25px;
+	color: black;
+	margin-left: 20rem;
+}
+
+@media screen and (max-width: 1200px) {
+	.section_expo {
+		flex-direction: column;
+	}
+	.reportage {
+		margin-left: 0rem;
+		margin-top: 4rem;
+	}
+}
+
+.reportage_img {
+	padding-top: 2rem;
+	margin: auto;
+}
+
+.section_expo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 769px) {
+	.pictureshow_expo {
+		margin: auto;
+	}
+
+	.div_img_after_expo {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.div_img_after_expo {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
 /* Footer du site*/
 .footer {
 	margin-top: 3rem;
@@ -707,7 +788,7 @@ img {
 }
 
 .contact_picture {
-	width: 17rem;
+	width: 25rem;
 	margin-left: auto;
 	margin-right: auto;
 	object-fit: cover;
@@ -741,6 +822,11 @@ img {
 }
 
 .pictureshow {
+	width: 40rem;
+	cursor: zoom-in;
+}
+
+.pictureshow_expo {
 	width: 40rem;
 	cursor: zoom-in;
 }
@@ -834,7 +920,7 @@ img {
 	}
 
 	.contact_picture {
-		border-radius: 25%;
+		border-radius: 5px;
 		height: 20%;
 		margin-bottom: 4rem;
 	}
